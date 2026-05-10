@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --brand: #2D3436;
+  --accent: #D4AF37; /* Un dorado elegante para el toque premium */
+  --bg-lino: #FDFCF9;
+}
+
+body {
+  color: var(--brand);
+  background-color: var(--bg-lino);
+  overflow-x: hidden;
+}
+
+/* Efecto de Vidrio Esmerilado para el Navbar */
+.glass {
+  background: rgba(253, 252, 249, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(45, 52, 54, 0.1);
+}
+
+/* Sombra suave tipo Apple */
+.shadow-soft {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mosaico estilo Masonry */
+.mosaic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
